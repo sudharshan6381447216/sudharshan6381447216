@@ -1,0 +1,161 @@
+@font-face {
+font-family: 'myFont';
+src: url("font/SourceSansPro-ExtraLight.otf");
+}
+
+@font-face {
+font-family: 'myFont';
+font-weight: bold;
+src: url("font/SourceSansPro-Semibold.otf");
+font-size: 100%;
+}
+
+a{
+    text-decoration:none;
+}
+a:link {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+
+body {
+    font-family: 'myFont';
+    padding: 10px;
+}
+h2 {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 22px;
+}
+.refresh {
+    margin-left: 10px;
+    color: green; 
+}
+.header {
+    background: #fffcf4;
+    padding: 5px;
+    text-align: center;
+}
+.suggestions {
+    border: 2px solid #ECECEC;
+}
+ul{
+    list-style-type:none;
+    padding-left: 0px;
+}
+li {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px gray;
+}
+li img {
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid brown;
+    padding: 2px;
+    display: inline-block;
+}
+li .moviename {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+li .addToCart {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+li .close {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    font-weight: bolder;
+    color:red;
+    font-size: 16px;
+}
+li .release_date {
+    position: relative;
+    bottom: 90px;
+    left: 90px;
+    color:steelblue;
+    font-size: 16px;
+}
+li .vote_average {
+    position: relative;
+    bottom: 90px;
+    left: 100px;
+    color: orange;
+    font-size: 16px;
+}
+p{
+    text-align: center;
+}
+
+.dropbtn {
+    background-color: brown;
+    color: white;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: orange;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-content {
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    overflow: auto;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    right:0;
+}
+
+.dropdown-content a {
+    color: red;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: skyblue}
+
+.show {display:block;}
+
+.dropdown-content img{
+    width: 60px;
+    display: inline-block;
+}
+
+.overview{
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+}
+
+.addToCart:link {
+    color: blue;
+}
+.addToCart:hover{
+    color: hotpink;
+}
+
+.moviename:visited{
+    color: gray;
+}
+.close.visited{
+    color: red;
+}
